@@ -1,0 +1,5 @@
+{"timestamp":"2025-05-20T20:08:48.308878","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-20T20:08:48.309631","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-20T20:08:50.138316Z","level":"info","event":"Successfully fetched 100 records for IBM","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-20T20:08:50.138735Z","level":"info","event":"Saved stock data to /tmp/IBM_daily.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-20T20:08:50.089483","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

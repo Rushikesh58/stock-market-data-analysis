@@ -1,0 +1,7 @@
+{"timestamp":"2025-05-20T20:14:19.924759","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-20T20:14:19.925539","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-20T20:14:20.340547","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-20T20:14:20.366140","level":"info","event":"Connection Retrieved 'aws_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-20T20:14:20.366333","level":"info","event":"AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-05-20T20:14:22.113899Z","level":"info","event":"Uploaded using AWS Hook to s3://stock-data-finance/stock-data/IBM/IBM_daily.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-20T20:14:22.115668","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
